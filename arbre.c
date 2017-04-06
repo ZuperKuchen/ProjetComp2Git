@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "arbre.h"
-#include "pppascal.tab.h"
+#include "PP.tab.h"
 /*-------------------------------------------------------------------*/
 /* ----------------------------types---------------------------------*/
 /*  type, NOE,ENVTY,LFON,BILENVTY,BILFON : definis dans arbre.h      */
