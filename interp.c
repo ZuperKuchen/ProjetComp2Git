@@ -4,8 +4,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include "arbre.h"
-#include "../ppascal.tab.h"
-#include "interpp.h"
+#include "pp.tab.h"
+#include "interp.h"
 
 /*-------------------------------------------------------------------*/
 /* ----------------------------types---------------------------------*/
@@ -150,7 +150,7 @@ void semop_gp(BILENVTY rho_gb, NOE c)
 return;
 }
 
-void interpp(BILENVTY benvty, NOE syntree)
+void interp(BILENVTY benvty, NOE syntree)
 {
   semop_gp(benvty, syntree);
   ecrire_bilenvty(benvty);
